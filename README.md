@@ -53,3 +53,7 @@ post body be like this,
 ### click [https://hallroom-booking-api-task.herokuapp.com/customerBooked](https://hallroom-booking-api-task.herokuapp.com/customerBooked)
 
 ![image](https://user-images.githubusercontent.com/77113035/146213646-b45552dc-a816-41a0-a010-a1b810f40fe2.png)
+
+## error if same room is tried to book
+
+![image](https://user-images.githubusercontent.com/77113035/146215420-77c8c169-bb0b-496c-90d5-eda5895f9f20.png)

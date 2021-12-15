@@ -1,6 +1,6 @@
 # hall-booking-api
 
-## create rooms
+## 1) create rooms
 ### click [https://hallroom-booking-api-task.herokuapp.com/rooms](https://hallroom-booking-api-task.herokuapp.com/rooms)
 
 ex: give post body like this
@@ -29,7 +29,7 @@ ex: give post body like this
 
 ![image](https://user-images.githubusercontent.com/77113035/146213275-84f516b3-dd3b-43f6-9d35-1c9df9ff8a97.png)
 
-## book rooms
+## 2) book rooms
 
 post body be like this,
 ```
@@ -42,13 +42,13 @@ post body be like this,
 
 ![image](https://user-images.githubusercontent.com/77113035/146213415-f8195794-c4c7-4a17-903a-a8380b90a245.png)
 
-## booked rooms list
+## 3) booked rooms list
 
 ### click [https://hallroom-booking-api-task.herokuapp.com/bookedRooms](https://hallroom-booking-api-task.herokuapp.com/bookedRooms)
 
 ![image](https://user-images.githubusercontent.com/77113035/146213528-fc5f23ce-8a33-4e25-a51c-0d7c22d92356.png)
 
-## customer booked rooms list
+## 4) customer booked rooms list
 
 ### click [https://hallroom-booking-api-task.herokuapp.com/customerBooked](https://hallroom-booking-api-task.herokuapp.com/customerBooked)
 

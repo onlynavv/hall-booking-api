@@ -2,6 +2,17 @@
 
 ## create rooms
 click [https://hallroom-booking-api-task.herokuapp.com/rooms](https://hallroom-booking-api-task.herokuapp.com/rooms)
+ex: give post body like this
+```
+{
+    "id":1,
+    "room_name":"a01",
+    "seats":10,
+    "amenities":["free wifi", "television", "parking lot", "mini fridge"],
+    "price": 120,
+    "status":"available"
+}
+```
 ![image](https://user-images.githubusercontent.com/77113035/146212955-52208de7-d1e1-4132-a2c1-9bfad611ec94.png)
 
 ## rooms lists
@@ -11,10 +22,20 @@ click [https://hallroom-booking-api-task.herokuapp.com/rooms](https://hallroom-b
 
 ## get rooms individually
 
+ex: https://hallroom-booking-api-task.herokuapp.com/rooms/id
+
 click [https://hallroom-booking-api-task.herokuapp.com/rooms/1](https://hallroom-booking-api-task.herokuapp.com/rooms/1)
 ![image](https://user-images.githubusercontent.com/77113035/146213275-84f516b3-dd3b-43f6-9d35-1c9df9ff8a97.png)
 
 ## book rooms
+
+ex: https://hallroom-booking-api-task.herokuapp.com/rooms/book/id
+post body be like this,
+```
+{
+    "name":"kumar"
+}
+```
 
 click [https://hallroom-booking-api-task.herokuapp.com/rooms/book/1](https://hallroom-booking-api-task.herokuapp.com/rooms/book/1)
 ![image](https://user-images.githubusercontent.com/77113035/146213415-f8195794-c4c7-4a17-903a-a8380b90a245.png)
